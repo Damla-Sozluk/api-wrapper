@@ -1,0 +1,24 @@
+{
+  "name": "damlasozluk-api-wrapper",
+  "version": "1.0.0",
+  "description": "Damla sözlük için resmi api wrapper.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "damla",
+    "sözlük"
+  ],
+  "repository": {
+    "url": "https://github.com/Damla-Sozluk/api-wrapper"
+  },
+  "author": "erenvein",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1"
+  }
+}
