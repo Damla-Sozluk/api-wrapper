@@ -22,6 +22,7 @@ export interface User {
   avatar: string;
   createdAt: string;
   updatedAt: string;
+  banner: string;
   __v: number;
   
 }
